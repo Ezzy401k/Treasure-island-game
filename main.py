@@ -21,11 +21,17 @@ ____/______/______/______/______/_____"=.o|o_.--""___/______/______/______/____
 *******************************************************************************
 ''')
 print("Welcome to Tresure Islan Your mission is to find the treasure.")
+# accept the player's input and assign it to the crossroads variable.
 crossroad = input("Your at a crossroad. Where do you go? Type 'left' or'right'.\n")
+# validate the player's choice.
 if crossroad == "left":
+          # accept the player's second choice.
     lake = input("You have come to a lake. There is an island in the middle of the lake.\nType 'wait' to wait for the boat or 'swim' to swim across the lake.\n")
+          # validate the player's choice.
     if lake == "wait":
+              # accept the player's third choice.
         house = input('You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which door do you choose?\nred, yellow, blue.\n')
+              # validate the player's choice.
         if house == "red":
             print("It's a room full of fire. Game Over.")
         elif house == "yellow":
