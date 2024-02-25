@@ -33,14 +33,20 @@ if crossroad == "left":
         house = input('You arrive at the island unharmed. There is a house with 3 doors. One red, one yellow and one blue. Which door do you choose?\nred, yellow, blue.\n')
               # validate the player's choice.
         if house == "red":
+                  # bad choice.
             print("It's a room full of fire. Game Over.")
         elif house == "yellow":
+                  # win.
             print("You found the treasure! You Win!")
         elif house == "blue":
+                  # bad choice.
             print("You entered room full of beastes. Game Over.")
         else:
+                  # null input.
             print("You chose a door that doesn't exist. Game Over.")
     else:
+              # long distance to swim.
         print("You lost your stamina half way and drowned. Game Over.")
 elif crossroad == "right":
+          # wrong turn.
     print("You fell in to a hole. Game Over.")
