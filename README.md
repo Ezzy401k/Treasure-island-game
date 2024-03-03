@@ -1,5 +1,4 @@
-
-# Day 3 of 100-day Python coding challenge
+Day 3 of 100-day Python coding challenge
 
 # Treasure Island
 
